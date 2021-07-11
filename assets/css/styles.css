@@ -1,0 +1,15 @@
+.myInput{
+    font-size: 2em;
+    border:1px solid #eee;
+    letter-spacing: 0.5;
+    text-align: center;
+}
+
+/* The gameArea in center of the page*/
+
+.gameArea{
+    margin: auto;
+    text-align: center;
+
+
+}
