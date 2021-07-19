@@ -1,3 +1,4 @@
+
 //we will use the selctor by the class and using a . with the class name gameArea.
 const gameArea = document.querySelector('.gameArea');
 //because or 2milestone project is about javascript we will create  button in javascript rather to go to do it in html. 
@@ -75,8 +76,6 @@ function sorter(val){
     }
     return temp;
 }
-
-
 
 
 
