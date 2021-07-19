@@ -7,10 +7,10 @@ You will be presented with a word.
 You to guess and unscramble what the word is, The next word can be selected by clicking next and then selecting it again.
 The top of the page shows a score for you.
 
-## front-End-test
+### front-End-test
 Read more about how to test front-end: 
 https://www.perfecto.io/blog/comprehensive-guide-front-end-testing
 
-## UX 
+### UX 
 Read more about how to work with UX: 
 https://www.springboard.com/blog/design/ux-design-principles/
