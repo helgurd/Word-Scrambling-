@@ -34,7 +34,7 @@ console.log(btn );
 ///game start values
 const myWords = ["hi", "bird","dog","cat","cow"];
 //we create an object known as game and so this can be what we are able to use for selecting up  words.
-const game ={sel: '', cramble:''};
+const game ={sel: '', scramble:''};
 
 
 //event listner to listn when pressed the button. and we will add event tracker object using arrow format for the function.
@@ -53,12 +53,26 @@ btn.addEventListener('click',(e)=>{
     //font size 
     output.style.fontSize = '3em';
 
+    //to have the selected word or the scrambled word, the same length we have to set the attraibute max and length, in another word we will have the same length between input and scrambled words and more words will not alowed.
+    inWord.setAttribute('maxlength',game.sel.length);
+    //we will put fucs to the input area wehnever we open the browser.
+    inWord.focus();
     //while the word has been selected , we can scramble that word and turn it to an array.
     output.textContent = `${game.scramble} `;
+
+
 
     //we make sure we not getting back the word selected as the value of word scrambled. 
     console.log(game.sel, game.sel);
 })
+
+// letter count event listoner that will wapply to the inWord element
+// the cose has testd whether is working or not and the image in the test folder
+inWord.addEventListener('keypress', (e)=>{
+    console.log(inWord.value.length);
+
+})
+
 /*
 to fix the bug that words are not scrambled sometimes 
 ex: world  will show the same world after scrambling. 

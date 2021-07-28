@@ -17,4 +17,8 @@ Read more about how to work with UX:
 https://www.springboard.com/blog/design/ux-design-principles/
 
 
-The following wireframes document "Project2_wireframes.pdf" is also available on GitHub
+### Wire_Frame
+The following wireframes document "Project2_wireframes.pdf" is available on GitHub
+https://github.com/helgurd/Word-Scrambling-/tree/main/assets/wire_frame
+
+
