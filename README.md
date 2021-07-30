@@ -21,4 +21,6 @@ https://www.springboard.com/blog/design/ux-design-principles/
 The following wireframes document "Project2_wireframes.pdf" is available on GitHub
 https://github.com/helgurd/Word-Scrambling-/tree/main/assets/wire_frame
 
-
+### Codes and Reference to learn 
+#### Keyup Eventlistinor:
+https://youtu.be/giCkFe9Jc-M?t=381

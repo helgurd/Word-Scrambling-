@@ -38,10 +38,10 @@ const game ={sel: '', scramble:''};
 
 
 //event listner to listn when pressed the button. and we will add event tracker object using arrow format for the function.
-btn.addEventListener('click',(e)=>{
+btn.addEventListener('keyup',(e)=>{
     //remove the button while clikcking it.
     btn.style.display='none';
-    //console.log(myWords);
+    //console.log(myWords); 
     /*the sort is expecting a function to be returned back and by adding (-) in front of random it will subtracting whatever the value is 
      and will return defferent order,  by this will allow us to scrample the words.*/
     
