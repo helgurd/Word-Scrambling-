@@ -72,9 +72,29 @@ inWord.addEventListener('keyup', (e)=>{
     //after the key has been tracked and tested and added to the event we going to repalce this code with (e) eventlistinor reference. 
     //console.log(inWord.value.length);
     console.log(e);
-    if(inWord.value.length == game.sel.length)
-
+    inWord.style.borderColor = '#eee';
+    inWord.style.borderWidth = '1px';
+    if(inWord.value.length == game.sel.length || e.code == 'Enter'){ 
+        /*if  value of the length is equal to game selectd length word or event code equal to Enter
+        we will  run the cheking */
+        winChecker();
+    }
 })
+
+// check if  the words are matching. we only passing the global value/ 
+function winChecker(){
+    inWord.style.borderWidth = '5px';
+    if(inWord.value == game.sel){
+        console.log('correct');
+        inWord.style.borderColor = 'green';
+    }else{
+        inWord.style.borderColor = 'red';
+        console.log('incorrect');
+        inWord.value = '';
+        inWord.focus();
+    }
+
+}
 
 /*
 to fix the bug that words are not scrambled sometimes 
@@ -93,7 +113,6 @@ function sorter(val){
     }
     return temp;
 }
-
 
 
 
