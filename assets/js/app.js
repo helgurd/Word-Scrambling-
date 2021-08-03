@@ -6,8 +6,14 @@ const gameArea = document.querySelector('.gameArea');
 const btn = document.createElement('button');
 //just creating a dive to add to the page dynamicly with js. 
 const output = document.createElement('div');
+
+
 //create input area 
 const inWord = document.createElement('input');
+//setting up a score area 
+const scoreBoard = document.createElement('div'); 
+
+
 // to define the input type  attrabute
 inWord.setAttribute('type', 'text');
 //adding some class to the inWord
@@ -39,7 +45,7 @@ const game ={sel: '', scramble:''};
 
 //event listner to listn when pressed the button. and we will add event tracker object using arrow format for the function.
 btn.addEventListener('click',(e)=>{
-    //remove the button while clikcking it.
+    //remove the button while clikcking it
     btn.style.display='none';
     //console.log(myWords);
     /*the sort is expecting a function to be returned back and by adding (-) in front of random it will subtracting whatever the value is 
