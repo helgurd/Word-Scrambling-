@@ -27,6 +27,6 @@ https://youtu.be/giCkFe9Jc-M?t=381
 
 
 ### Some Useful links about the cod that used in this app
-##### prepend():this method will  pretending the scoreboard at the top of the field input.
+prepend():this method will  pretending the scoreboard at the top of the field input.
 
 #### how to dynamically create a div with javascript.
