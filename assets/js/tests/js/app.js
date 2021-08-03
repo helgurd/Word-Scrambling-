@@ -15,7 +15,7 @@ const scoreBoard = document.createElement('div');
 
 
 // to define the input type  attrabute
-inWord.setAttribute('type', 'text');
+inWord.setAttribute('type', 'text'); 
 //adding some class to the inWord
 inWord.classList.add('myInput');
 
