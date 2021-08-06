@@ -108,7 +108,7 @@ inWord.addEventListener('keyup',(e)=>{
 
 
 function addScore(){
-    let tempOutput = `Score : <b>${game.score}</b> vs incorrect <i>(${game.incorrect})</i>`;
+    let tempOutput = `Score : <b>${game.score}</b> vs incorrect <i>(${game.incorrect})</i><small> ${game.wordsLeft} words left </small>`;
     scoreBoard.innerHTML = tempOutput;
 }
 
