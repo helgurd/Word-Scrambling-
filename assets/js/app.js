@@ -9,11 +9,11 @@ const output = document.createElement('div');
 const inWord = document.createElement('input');
 //setting up a score area 
 const scoreBoard = document.createElement('div');
-scoreBoard.textContent = 'Score';
+//scoreBoard.textContent = 'Score: 0';
 scoreBoard.style.color= 'black';
 //over input score font size
 scoreBoard.style.fontSize = '2em';
-//scoreBoard.style.backgroundColor = 'black';
+//scoreBoard.style.backgroundColor = 'black'; 
 //adding padding between scoreboard and inWord
 scoreBoard.style.padding = '10px';
 // to define the input type  attrabut
@@ -24,7 +24,7 @@ inWord.classList.add('myInput');
 output.style.textAlign = 'center';
 btn.textContent = "START GAME!";
 //add some content into output and same thing as but.textContent. 
-output.textContent = "Click that button ";
+//output.textContent = "Click that button ";
 output.style.letterSpacing = '0';
 /// Add to HTML page
 //Add to HTML page, this will done with JS code. 
@@ -45,14 +45,17 @@ inWord.style.display = 'none';
 console.log(btn );
 ///game start values
 // creating an Array of words to scramble
-const myWords = ["hi","bird","dog","cat","cow"]; //min 2 character words or we end up in a loop
-const game = {sel:'',scramble:'',score:0,incorrect:0};
+const myWords = ["hi","bird","dog","cat","cow"]; //min 2 character words or we end up in a 
+//information about the words inside game g
+const game = {sel:'',scramble:'',score:0,incorrect:0, wordsLeft: 0};
 
 //event listner to listn when pressed the button. and we will add event tracker object using arrow format for the function.
 
 //event listener
 btn.addEventListener('click',(e)=>{
     //console.log(myWords);
+    //score value has to be set to reseted eachtimes the game will start
+    scoreBoard.textContent = 'Score: 0';
     scoreBoard.style.display = 'block';
     inWord.style.display = 'inline';
       //remove the button while clikcking it
@@ -62,8 +65,10 @@ btn.addEventListener('click',(e)=>{
      and will return defferent order,  by this will allow us to scrample the words.*/
     myWords.sort(()=>{ return 0.5 - Math.random()});
         //out puting the first word with the index value of [0] to the outputing area. 
+        //the word has to be removed and update with next random one with the shift(); methode.
+    //game.sel = myWords[0];
+    game.sel = myWords.shift(); 
 
-    game.sel = myWords[0];
         //we will pass here whatever returend fro mthe functions sorter and the value will be the selective word.
 
     game.scramble = sorter(game.sel);
