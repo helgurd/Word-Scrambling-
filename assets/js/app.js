@@ -68,6 +68,8 @@ btn.addEventListener('click',(e)=>{
         //the word has to be removed and update with next random one with the shift(); methode.
     //game.sel = myWords[0];
     game.sel = myWords.shift(); 
+    //chek how many words left after first attemtions.
+    game.wordsLeft = myWords.length;
 
         //we will pass here whatever returend fro mthe functions sorter and the value will be the selective word.
 
