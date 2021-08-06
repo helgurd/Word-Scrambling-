@@ -15,4 +15,15 @@
 .navbar-brand a { 
     margin-left: -100px;
 }
-
+button:hover{
+    background-color:darkred;
+    color:white;
+}
+button{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    background-color:red ;
+    color:white;
+    border-radius:10px;
+}
