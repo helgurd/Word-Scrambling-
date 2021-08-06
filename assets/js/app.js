@@ -28,14 +28,15 @@ btn.textContent = "START GAME!";
 output.style.letterSpacing = '0';
 /// Add to HTML page
 //Add to HTML page, this will done with JS code. 
-// we append the obj
-gameArea.append(btn);
+
 //append div to the page 
 gameArea.append(output);
 //Add input to the page
 gameArea.append(inWord);
 //game area outPut prepend wich will out put on the top of the input
 gameArea.prepend(scoreBoard);
+// we append the obj
+gameArea.append(btn);
 
 //hide non needed
 scoreBoard.style.display = 'none';
@@ -47,7 +48,7 @@ console.log(btn );
 // creating an Array of words to scramble
 const myWords = ["hi","bird","dog","cat","cow"]; //min 2 character words or we end up in a 
 //information about the words inside game g
-const game = {sel:'',scramble:'',score:0,incorrect:0, wordsLeft: 0};
+const game = {sel:'',scramble:'',score:0,incorrect:0, wordsLeft: 0, played:myWords.length};
 
 //event listner to listn when pressed the button. and we will add event tracker object using arrow format for the function.
 
