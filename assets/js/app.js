@@ -10,9 +10,12 @@ const inWord = document.createElement('input');
 //setting up a score area 
 const scoreBoard = document.createElement('div');
 scoreBoard.textContent = 'Score';
-scoreBoard.style.color= 'white';
-scoreBoard.style.backgroundColor = 'black';
-scoreBoard.style.padding = '25px';
+scoreBoard.style.color= 'black';
+//over input score font size
+scoreBoard.style.fontSize = '2em';
+//scoreBoard.style.backgroundColor = 'black';
+//adding padding between scoreboard and inWord
+scoreBoard.style.padding = '10px';
 // to define the input type  attrabut
 inWord.setAttribute('type','text');
 //adding some class to the inWord
@@ -142,3 +145,4 @@ function sorter(val){
     }
     return temp;
 }
+ 
