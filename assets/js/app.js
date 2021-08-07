@@ -154,62 +154,40 @@ function sorter(val){
  
 
 
-//     scoreBoard.textContent = 'Score: 0';
-//     scoreBoard.style.display = 'block';
-//     inWord.style.display = 'inline';
-//       //remove the button while clikcking it
-//     btn.style.display = 'none';
-//     //console.log(myWords);
-//     /*the sort is expecting a function to be returned back and by adding (-) in front of random it will subtracting whatever the value is 
-//      and will return defferent order,  by this will allow us to scrample the words.*/
-//     myWords.sort(()=>{ return 0.5 - Math.random()});
-//         //out puting the first word with the index value of [0] to the outputing area. 
-//         //the word has to be removed and update with next random one with the shift(); methode.
-//     //game.sel = myWords[0];
-//     game.sel = myWords.shift(); 
-//     //chek how many words left after first attemtions.
-//     game.wordsLeft = myWords.length;
+/*future works ready to go just need to repalace some names ot hte code 
+ and need to generate jason uniqe code form excel sheet to update 
+ words dynamicaly. */
 
-//         //we will pass here whatever returend fro mthe functions sorter and the value will be the selective word.
-
-//     game.scramble = sorter(game.sel);
-//     //font size
-//     output.style.fontSize = '3em';
-//     output.style.letterSpacing = '0.5em';
-//     //to have the selected word or the scrambled word, the same length we have to set the attraibute max and length, in another word we will have the same length between input and scrambled words and more words will not alowed.
-
-//     inWord.setAttribute('maxlength',game.sel.length);
-
-//     //we will put fucs to the input area wehnever we open the browser.
-
-//     inWord.focus();
-//     //while the word has been selected , we can scramble that word and turn it to an array.
-//     output.textContent = `${game.scramble}`;
-//         //we make sure we not getting back the word selected as the value of word scrambled. 
-//     console.log(game.sel,game.scramble);
+// ///game start values
+// const myArr = [];
+// let myWords = [];
+// //const myWords = ["hi","bird","dog","cat","cow"]; //min 2 character words or we end up in a loop
+// //const myWords = ["hi","bird"];
+// const game = {sel:'',scramble:'',score:0,incorrect:0,wordsLeft:0,played:myWords.length,inplay:false};
+// const id = '1HTi9dPBVX5CTMmJ5HEE1QEJo64MW1iJL0T-_mnbHsXo';
+// let url = 'https://spreadsheets.google.com/feeds/list/'+id+'/1/public/values?alt=json';
+// fetch(url).then((res)=>res.json()).then((data)=>{
+//     console.log(data.feed.entry[0]);
+//     //let ele = data.feed.entry[0];
+//     data.feed.entry.forEach((ele,index)=>{
+//         let holder = [];
+//         let opt = document.createElement('option');
+//         opt.appendChild(document.createTextNode('Word List #'+(index+1)));
+//         opt.value = index;
+//         selWordList.append(opt);
+//         for( let key in ele){
+//             console.log(key);
+//             if(key.substring(0,3) =='gsx'){
+//                 holder.push(ele[key].$t);
+//             }
+//         }
+//         myArr.push(holder);
+//     })
+//     btn.style.display = 'block';
+//     output.textContent = "Please Select your word List";
+//     selWordList.style.display = 'block';
+//     console.log(myArr);
 // })
-
-
-
-
-
-// /* letter count event listoner that will wapply to the inWord element
-//  the cose has testd whether is working or not and the image in the test folder*/
-// inWord.addEventListener('keyup',(e)=>{
-//         /*after the key has been tracked and tested and added to the event we going to repalce this code with (e) eventlistinor reference. 
-//     console.log(inWord.value.length)*/
-//     console.log(e);
-//     inWord.style.borderColor = '#eee';
-//     inWord.style.borderWidth = '1px';
-//      /*if  value of the length is equal to game selectd length word or event code equal to Enter
-//         we will  run the cheking */
-//     if(inWord.value.length == game.sel.length || e.code == 'Enter'){
-//         winChecker();
-//     }
-// })
-
-
-
 
 
 
