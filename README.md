@@ -33,3 +33,5 @@ prepend():this method will  pretending the scoreboard at the top of the field in
 
 #### How creat json file from google spreadshit and fetch it.
 https://www.freecodecamp.org/news/cjn-google-sheets-as-json-endpoint/
+##### How to fetch json file link in to the code 
+https://www.youtube.com/watch?v=1tVCwv_BX2M&ab_channel=AllThingsJavaScript%2CLLC
