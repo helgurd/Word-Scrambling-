@@ -30,3 +30,6 @@ https://youtu.be/giCkFe9Jc-M?t=381
 prepend():this method will  pretending the scoreboard at the top of the field input.
 
 #### how to dynamically create a div with javascript.
+
+#### How creat json file from google spreadshit and fetch it.
+https://www.freecodecamp.org/news/cjn-google-sheets-as-json-endpoint/
