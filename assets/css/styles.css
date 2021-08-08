@@ -68,7 +68,8 @@ button{
 footer {
   background-color: #525252;
   color: #fafafa;
-  min-height: 120px;
+  min-height: 50px;
+  
   margin: 0;
   position:fixed;
   bottom:0;
@@ -125,12 +126,28 @@ footer {
 
 
 
-@media screen and (max-width: 300px){
+@media only screen and (max-width: 350px){
 
-.hiding{
-		display: none;
-	}
+
+  footer {
+
+    max-height: 50px;
+    background-color:red;
+    max-height: 70px !important;
+  }
+  
+
 	
+
+  button{
+    margin-top: 100px !important;
+    text-align: center;
+    margin-top: 0 !important;
+    background-color:red ;
+    color:#fafafa;
+    border-radius:10px;
+}
+
 }
 
 /* ----------------------------------------Three 
