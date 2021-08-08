@@ -50,9 +50,9 @@ button:hover{
     color:#fafafa;
 }
 button{
-    margin: auto;
+    margin: auto !important;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10px !important;
     background-color:red ;
     color:#fafafa;
     border-radius:10px;
@@ -116,5 +116,10 @@ footer {
 #footer-details {
   padding: 20px;
 }
+.social-lin{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center
 
+}
 /* ----------------------------------------Three 
