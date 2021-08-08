@@ -1,4 +1,8 @@
 /* class css  myinput area which created with JS but not in html */
+body{
+  color:#fafafa;
+}
+
 .myInput{font-size:2em;border:1px solid #eee;letter-spacing:.5em;text-align:center}
 
 .gameArea{
@@ -10,6 +14,32 @@
 }
 .navbar{
     margin-left: 200px;
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 70px;
+margin:0;
+}
+
+
+
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link {
+  color:#fafafa !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:red!important;
+}
+.navbar-light .navbar-brand {
+  color:#fafafa !important;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: red !important;
 }
 
 .navbar-brand a { 
@@ -17,13 +47,74 @@
 }
 button:hover{
     background-color:darkred;
-    color:white;
+    color:#fafafa;
 }
 button{
     margin: auto;
     text-align: center;
     margin-top: 10px;
     background-color:red ;
-    color:white;
+    color:#fafafa;
     border-radius:10px;
 }
+
+
+
+
+
+
+
+
+footer {
+  background-color: #525252;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+  position:fixed;
+  bottom:0;
+}
+
+.cv-pdf i {
+  font-size: 18px;
+  color: #fafafa;
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+  color: #e84610;
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #e84610;
+}
+
+#footer-details {
+  padding: 20px;
+}
+
+/* ----------------------------------------Three 
