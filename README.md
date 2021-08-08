@@ -1,11 +1,11 @@
 # Word-Scrambling-
-This website is to provide a user-friendly game scrambled game that is simple and easy to use, allowing gamers to enter words and display the results on the front page.
+This website is to provide a user-friendly scrambled game that is simple and easy to use, allowing gamers to enter words and display the results on the front page.
 
-A JavaScript-based game where you select words from a variety of word lists and click to start.   
+A JavaScript-based game where you given words each time you solve one words  from a variety and randum  of words after clicking next button.   
 
 You will be presented with a word.
-You to guess and unscramble what the word is, The next word can be selected by clicking next and then selecting it again.
-The top of the page shows a score for you.
+You to guess  what the word is, The next word can be selected by clicking next and then selecting it again after you solve one you have. 
+The top of the field shows a score for you.
 
 ### front-End-test
 Read more about how to test front-end: 
@@ -35,3 +35,8 @@ prepend():this method will  pretending the scoreboard at the top of the field in
 https://www.freecodecamp.org/news/cjn-google-sheets-as-json-endpoint/
 ##### How to fetch json file link in to the code 
 https://www.youtube.com/watch?v=1tVCwv_BX2M&ab_channel=AllThingsJavaScript%2CLLC
+
+### Requirements 
+This game based on the website and can be played on any prefered website that support javascript. 
+you need to have internet and web browser. for the v1 you can play without Internet as words not dynamicly
+loaded in the V1. 
