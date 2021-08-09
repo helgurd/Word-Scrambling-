@@ -1,20 +1,64 @@
 # Word-Scrambling-
-This website is to provide a user-friendly scrambled game that is simple and easy to use, allowing gamers to enter words and display the results on the front page.
 
 A JavaScript-based game where you given words each time you solve one words  from a variety and randum  of words after clicking next button.   
 
 You will be presented with a word.
 You to guess  what the word is, The next word can be selected by clicking next and then selecting it again after you solve one you have. 
 The top of the field shows a score for you.
+### V1 
+This game at version 1. 
+
+### UX 
+This website is to provide a user-friendly scrambled game that is simple and easy to use, allowing gamers to enter words and display the results on the front page.
+ * mobile device user, be able to navagate through the page same 
+ as web based users. 
+ * in mobile version  the footer removed to give a user clear view of the input field with kyeboard. 
+
+
+Read more about how to work with UX: 
+https://www.springboard.com/blog/design/ux-design-principles/
+  
+### Futures
+* Three pages, the full responsive navigation bar includes links to the code , Home page, About the developer portfolio page 
+And navagations are identical in each page to allow for easy navigation.
+This website has mostlikly build with javascript as the aim of this porject to learn Javascript in the easy way.
+* Clear button to start.  
+
+  
+  #### Future  features could be added
+	1. The countdown starts at 999 seconds.
+	2.  the Hint button.
+	3. Login user to account and to save played game score time count to challenge next play.
+	4. Give the user option to chose between list of the word ABC 
+	5. Give the user option to  select deferent Themes .
+	6. Regardless of time out yet the game ending while few times wrong words are attempted.
+	7. Connect the word list to the database or online spreadsheet to add more words dynamicallyw 
+
+### Technologies Used
+*  HTML. Bootstrap V5, and Bootstrap Studio paid V used. 
+https://bootstrapstudio.io/
+
+* Javascript used in this porject %51. 
+
+* CSS
+
+* Font Awsome
+
+* Git 
+
+* Github
+
+* WYSIWYG Web Builder paid V to build wireframe 
+https://www.wysiwygwebbuilder.com/
+
+
+
 
 ### front-End-test
 Read more about how to test front-end: 
 https://www.perfecto.io/blog/comprehensive-guide-front-end-testing
 
-### UX 
 
-Read more about how to work with UX: 
-https://www.springboard.com/blog/design/ux-design-principles/
 
 
 ### Wire_Frame
