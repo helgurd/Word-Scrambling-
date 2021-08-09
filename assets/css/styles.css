@@ -148,6 +148,20 @@ footer {
     border-radius:10px;
 }
 
+.myInput{font-size:12px;
+  border:1px solid #eee;letter-spacing:1px;
+  text-align:center}
+
+.gameArea{
+    
+    
+    margin:auto;text-align:center;
+    padding-top: 300px;
+    max-height: 20px;
+
+}
+
+
 }
 
 /* ----------------------------------------Three 
