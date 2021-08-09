@@ -54,10 +54,27 @@ https://www.wysiwygwebbuilder.com/
 
 
 
-### front-End-test
-Read more about how to test front-end: 
-https://www.perfecto.io/blog/comprehensive-guide-front-end-testing
+### Testing
+HTML Validator : HTML
+No errors were returned when passing through the official
+/workspace/Word-Scrambling-/assets/js/tests/html-validation.png
+https://www.freeformatter.com/html-validator.html  
 
+W3C CSS Validator CSS
+No errors were returned when passing through the official
+you can find pdf file report with this porject
+https://validator.w3.org/
+
+  #### front-End-test
+    Read more about how to test front-end: 
+    https://www.perfecto.io/blog/comprehensive-guide-front-end-testing
+
+
+
+
+### Deployment
+The site was deployed to GitHub pages. 
+https://helgurd.github.io/Word-Scrambling-/
 
 
 
@@ -84,3 +101,5 @@ https://www.youtube.com/watch?v=1tVCwv_BX2M&ab_channel=AllThingsJavaScript%2CLLC
 This game based on the website and can be played on any prefered website that support javascript. 
 you need to have internet and web browser. for the v1 you can play without Internet as words not dynamicly
 loaded in the V1. 
+
+
