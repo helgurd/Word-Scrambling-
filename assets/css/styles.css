@@ -134,6 +134,8 @@ footer {
     max-height: 50px;
     background-color:red;
     max-height: 70px !important;
+    bottom: 0;
+    position:fixed;
   }
   
 
